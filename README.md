@@ -7,7 +7,7 @@ A more intuitive and predictable scaling system for Tailwind CSS v4 & v3. This c
 This repository supports both Tailwind CSS v4 and v3:
 
 - `main` branch: CSS configuration for Tailwind CSS v4
-- `v3` branch: JavaScript configuration for Tailwind CSS v3
+- [`v3` branch](https://github.com/harshmandan/tailwind-linear-scale/tree/v3): JavaScript configuration for Tailwind CSS v3
 
 Both versions implement the same linear scale system, just in different formats to match their respective Tailwind versions.
 
