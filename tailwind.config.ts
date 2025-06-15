@@ -50,10 +50,10 @@ export default {
       "700": "700",
       "800": "800",
     },
+    height: spacing,
+    spacing: spacing,
+    borderWidth,
     extend: {
-      borderWidth,
-      height: spacing,
-      spacing: spacing,
       zIndex: {
         0: "0",
         1: "1",
