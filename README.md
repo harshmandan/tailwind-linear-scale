@@ -26,6 +26,20 @@ This configuration implements a linear scale where:
 - Class names are more predictable and easier to understand
 - Makes it very easy to work with design systems (Figma)
 
+## Example:
+
+```html
+<div class="p-4 text-16 rounded-4">
+  <!-- 4px padding, 16px text, 4px border radius -->
+</div>
+```
+
+## Usage
+
+1. Copy the CSS files from this repository
+2. Import them into your Tailwind configuration
+3. Use the new class names in your HTML
+
 ## Features
 
 ### Typography Scale
@@ -98,25 +112,3 @@ The system uses a base scale factor (`--spacing-scale: 0.0625em`) to calculate a
 - At the default font size (16px), 1 unit = 1px
 - All values scale proportionally with the font size
 - The system remains responsive while being more predictable
-
-## Usage
-
-1. Copy the CSS files from this repository
-2. Import them into your Tailwind configuration
-3. Use the new class names in your HTML
-
-Example:
-
-```html
-<div class="p-4 text-16 rounded-4">
-  <!-- 4px padding, 16px text, 4px border radius -->
-</div>
-```
-
-## Benefits
-
-- More intuitive class names that directly correspond to pixel values
-- Consistent scaling across all properties
-- Easier to maintain and understand design systems
-- Better developer experience with predictable values
-- Maintains Tailwind's utility-first approach while being more explicit
