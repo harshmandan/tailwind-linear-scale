@@ -16,7 +16,7 @@
   --container-448: calc(var(--spacing-scale) * 448);
   --container-512: calc(var(--spacing-scale) * 512);
   --container-576: calc(var(--spacing-scale) * 576);
-  --container-640: calc(var(--spacing-scale) * 640);
+  --container-672: calc(var(--spacing-scale) * 672);
   --container-768: calc(var(--spacing-scale) * 768);
   --container-896: calc(var(--spacing-scale) * 896);
   --container-1024: calc(var(--spacing-scale) * 1024);
