@@ -1,19 +1,20 @@
+/* Remove tap highlight on button */
 * {
-  /* Remove tap highlight on button */
   -webkit-tap-highlight-color: transparent !important;
-  button:focus {
-    outline: none !important;
-  }
+}
 
-  /* Enable pointer cursor on enabled button */
-  button:not(:disabled) {
-    cursor: pointer !important;
-  }
+button:focus {
+  outline: none !important;
+}
 
-  /* Disable cursor on disabled button */
-  button:disabled {
-    cursor: default !important;
-  }
+/* Enable pointer cursor on enabled button */
+button:not(:disabled) {
+  cursor: pointer !important;
+}
+
+/* Disable cursor on disabled button */
+button:disabled {
+  cursor: default !important;
 }
 
 /* Hide spin button on number input */

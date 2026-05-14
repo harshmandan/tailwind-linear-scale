@@ -1,5 +1,6 @@
 @theme {
   --radius-*: initial;
+  --radius-0: 0;
   --radius-2: calc(var(--spacing-scale) * 2);
   --radius-4: calc(var(--spacing-scale) * 4);
   --radius-8: calc(var(--spacing-scale) * 8);

@@ -21,6 +21,8 @@
   --text-14--line-height: calc(1.25 / 0.875);
   --text-base: calc(var(--spacing-scale) * 16);
   --text-base--line-height: calc(1.5 / 1);
+  --text-16: calc(var(--spacing-scale) * 16);
+  --text-16--line-height: calc(1.5 / 1);
   --text-18: calc(var(--spacing-scale) * 18);
   --text-18--line-height: calc(1.75 / 1.125);
   --text-20: calc(var(--spacing-scale) * 20);
