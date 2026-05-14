@@ -1,5 +1,5 @@
 @theme {
-  --breakpoint-initial: *;
+  --breakpoint-*: initial;
 
   --breakpoint-640: calc(var(--spacing-scale) * 640);
   --breakpoint-768: calc(var(--spacing-scale) * 768);
@@ -7,7 +7,7 @@
   --breakpoint-1280: calc(var(--spacing-scale) * 1280);
   --breakpoint-1536: calc(var(--spacing-scale) * 1536);
 
-  --container-initial: *;
+  --container-*: initial;
 
   --container-256: calc(var(--spacing-scale) * 256);
   --container-288: calc(var(--spacing-scale) * 288);
